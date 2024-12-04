@@ -22,7 +22,7 @@ draw.rectangle((0, 0, oled.width, oled.height), outline=255, fill=0)
 
 # Add text
 font = ImageFont.load_default()
-draw.text((10, 10), "Hello, OLED!", font=font, fill=255)
+draw.text((10, 10), "Hello, TEAM ???? we never decided on a name", font=font, fill=255)
 
 # Display image on the OLED
 oled.image(image)
